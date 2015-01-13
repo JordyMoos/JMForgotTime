@@ -46,8 +46,7 @@ function JMForgotTime:restorePositions()
     JMForgotTimeIndicator:SetAnchor(TOPLEFT, GuiRoot, TOPLEFT, left, top)
 end
 
----
--- @param ignoreBuffer
+--- 
 --
 function JMForgotTime:updateTime()
     JMForgotTimeIndicatorLabel:SetText(
