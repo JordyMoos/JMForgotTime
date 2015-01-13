@@ -1,0 +1,20 @@
+<GuiXml>
+    <Controls>
+        <TopLevelControl name="JMForgotTimeIndicator" mouseEnabled="true" movable="true">
+            <Dimensions x="200" y="25" />
+            <Anchor point="BOTTOM" relativeTo="GuiRoot" relativePoint="CENTER" offsetY="-20" />
+
+            <OnMoveStop>
+                JMForgotTime:savePositions()
+            </OnMoveStop>
+
+            <Controls>
+                <Label name="$(parent)Label" width="200" height="25" font="ZoFontGamepadCondensed18"
+                       inheritAlpha="true" color="FFFFFF" wrapMode="TRUNCATE"
+                       verticalAlignment="TOP" horizontalAlignment="CENTER">
+                    <Anchor point="TOP" relativeTo="$(parent)" relativePoint="TOP" />
+                </Label>
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+</GuiXml>
