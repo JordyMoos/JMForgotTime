@@ -1,5 +1,5 @@
 ## Title: JMForgotTime
-## APIVersion: 100010
+## APIVersion: 100011
 ## SavedVariables: JMForgotTimeSavedVariables
 
 JMForgotTime.xml
